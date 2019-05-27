@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun subscribe() {
         val elapsedTimeObserver = object : Observer<Long> {
-            override fun onChanged(@Nullable aLong: Long?) {
+            override fun onChanged(aLong: Long?) {
                 val newText = this@MainActivity.resources.getString(
                     R.string.seconds, aLong
                 )
