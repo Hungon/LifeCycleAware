@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">life-cycle-aware</string>
+    <string name="seconds">%d sec</string>
+</resources>
